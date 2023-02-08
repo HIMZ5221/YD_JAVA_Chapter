@@ -63,7 +63,7 @@ public class stringAPI {
 			System.out.println("byte3.length : " + byte3.length);
 			String str9 = new String(byte3,"UTF-8");
 			System.out.println(str9);
-			
+		System.out.println("====================================");
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
